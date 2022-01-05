@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* style */
+body {
+    font: 16px/20px arial, sans-serif;
+    background-color: #e4e0e0;
+    background-image: url(watercolor.png);
+    color: #333;
+}
+
+.topbar {
+    background-color: rgb(238, 188, 188);
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+}
+
+.topbar ul a {
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.container {
+    width: 960px;
+    margin: 80px auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+}
+
+.judul {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(255, 200, 210);
+    padding: 2px;
+}
+
+.header a:hover {
+    color: rgb(250, 143, 161);
+}
+
+.hero {
+    height: 300px;
+    background-image: url(tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+    background-position: -50px -200px;
+    border-top: 5px solid rgb(219, 181, 166);
+    border-bottom: 5px solid rgb(219, 181, 166);
+}
+
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.main h2 {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.main .penulis {
+    margin-top: -5px;
+    margin-left: 2.5px;
+    padding: 10px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main .penulis a {
+    color: rgb(221, 172, 160);
+}
+
+.penulis a:hover {
+    border-bottom: 2px solid rgb(238, 188, 188);
+}
+
+.main p {
+    padding: 5px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 10px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    color: rgb(221, 172, 160);
+    text-align: center;
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 20px;
+}
+
+.sidebar p {
+    font: 12px/19px arial;
+    margin: 10px;
+}
+
+
+
+
+.copyright {
+    background-color: rgb(238, 225, 225);
+    color: rgb(219, 163, 146);
+    text-align: center;
+    font-size: 15px;
+    font: bold;
+    padding: 6px;
+}
+
+.footer .copyright {
+    border-bottom: 1px solid rgb(238, 188, 188);
+    border-top: 1px solid rgb(238, 188, 188);
+    box-sizing: border-box;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
